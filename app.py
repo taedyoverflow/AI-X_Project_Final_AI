@@ -49,7 +49,7 @@ class SearchQuery(BaseModel):
     query: str
 
 # API 키와 YouTube API 서비스 객체를 설정합니다.
-YOUTUBE_API_KEY = 'AIzaSyBP8FZtPZnM8UNCalilXmAg2oY-Pnjv9-c'
+YOUTUBE_API_KEY = ''
 youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
 
 @app.post("/youtube_search/")
